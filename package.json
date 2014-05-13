@@ -1,0 +1,29 @@
+{
+  "name": "openshift_node",
+  "version": "0.0.0",
+  "description": "OpenShift test",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gcoonrod/openshift_node.git"
+  },
+  "author": "gcoonrod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gcoonrod/openshift_node/issues"
+  },
+  "homepage": "https://github.com/gcoonrod/openshift_node",
+  "dependencies": {
+    "express": "~4.0.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "jade": "~1.3.0"
+  }
+}
